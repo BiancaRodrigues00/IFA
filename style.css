@@ -426,3 +426,10 @@ body.simulando-astigmatismo .ponto-luz {
  box-shadow: 0 0 25px 10px #FFF;
  filter: blur(1px);
 }
+
+/*miopia*/
+body.simulando-miopia #conteudo-principal,
+body.simulando-miopia #tela-teste {
+  filter: blur(4px); /* Ajuste o valor em 'px' para aumentar ou diminuir o desfoque */
+  transition: filter 0.3s ease; /* Faz a transição ficar suave ao clicar */
+}
