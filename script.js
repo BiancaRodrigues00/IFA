@@ -299,4 +299,3 @@ btnMiopia.addEventListener("click", () => {
    );
  }
 
-
