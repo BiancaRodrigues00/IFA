@@ -291,11 +291,11 @@ btnMiopia.addEventListener("click", () => {
 
  btnReset.addEventListener("click", () => {
 
-
    body.classList.remove(
        "simulando-miopia",
        "simulando-daltonismo",
        "simulando-astigmatismo"
    );
- }
+ });
 
+});
