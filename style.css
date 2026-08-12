@@ -402,34 +402,49 @@ body {
 }
 
 
-.ponto-luz {
- display: inline-block;
- font-size: 1.2rem;
- padding: 10px 20px;
- margin-top: 10px;
- background: #FFF;
- color: #0e0d0d;
- border-radius: 50px;
- box-shadow: 0 0 15px #FFF;
- transition: all 0.3s;
+/* ==========================================================================
+   IMAGEM DO SIMULADOR VISUAL
+   ========================================================================== */
+
+.area-imagem-simulador {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #111;
+  padding: 15px;
 }
+
+.imagem-teste {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 8px;
+
+  transition:
+    filter 0.5s ease,
+    transform 0.5s ease,
+    opacity 0.5s ease;
+}
+
 
 
 /* Classes para os Efeitos do Simulador */
-body.simulando-daltonismo {
- filter: grayscale(80%) sepia(20%); /* Simulação pedagógica de daltonismo */
+body.simulando-daltonismo .imagem-teste {
+  filter: grayscale(80%) sepia(20%);
 }
 
 
-body.simulando-astigmatismo .ponto-luz {
- text-shadow: -8px 0px 5px rgba(255,255,255,0.8), 8px 0px 5px rgba(255,255,255,0.8);
- box-shadow: 0 0 25px 10px #FFF;
- filter: blur(1px);
+body.simulando-astigmatismo .imagem-teste {
+  filter: blur(2px);
+  transform: scale(1.01);
 }
 
-/*miopia*/
-body.simulando-miopia #conteudo-principal,
-body.simulando-miopia #tela-teste {
-  filter: blur(4px); /* Ajuste o valor em 'px' para aumentar ou diminuir o desfoque */
-  transition: filter 0.3s ease; /* Faz a transição ficar suave ao clicar */
+body.simulando-miopia .imagem-teste {
+  filter: blur(5px);
+  transform: scale(1.02);
 }
+
