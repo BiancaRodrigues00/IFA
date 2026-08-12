@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
  const dadosDoencas = {
    miopia: {
      titulo: "Miopia",
-     oqueE: "A miopia é um distúrbio visual no qual objetos próximos são vistos com clareza, mas objetos distantes parecem embaçados. Isso ocorre porque a imagem visual é focada à frente da retina, e não diretamente sobre ela.",
-     causas: "Geralmente ocorre quando o globo ocular é mais longo do que o normal ou a córnea é muito curva. Fatores genéticos e o uso excessivo de telas a curta distância também influenciam o seu desenvolvimento.",
+     oqueE: "A miopia é um distúrbio visual muito comum que dificulta a visão de objetos distantes. Quem tem miopia consegue enxergar com total clareza tudo o que está próximo, como as páginas de um livro ou a tela do celular, mas percebe o que está longe — como placas de trânsito, a TV ou a lousa da sala — de forma embaçada e sem foco.",
+     causas: "A causa dessa condição está ligada à anatomia do próprio olho. Na miopia, o globo ocular é ligeiramente mais longo do que o normal ou a córnea possui uma curvatura muito acentuada. Por conta desse formato, a luz que entra no olho foca antes de chegar à retina (a camada no fundo do olho que envia as imagens ao cérebro), em vez de se focar exatamente sobre ela. A genética tem um papel fundamental nisso, sendo bastante comum que a miopia seja herdada de pais para filhos.",
      sintomas: [
        "Visão embaçada ao olhar para objetos distantes",
        "Necessidade de apertar os olhos para enxergar claramente",
@@ -28,8 +28,8 @@ document.addEventListener("DOMContentLoaded", () => {
    },
    astigmatismo: {
      titulo: "Astigmatismo",
-     oqueE: "O astigmatismo é uma imperfeição comum na curvatura da córnea ou do cristalino do olho, fazendo com que a visão fique borrada ou distorcida tanto para perto quanto para longe.",
-     causas: "Ocorre quando a córnea ou o cristalino tem um formato irregular (semelhante a uma bola de futebol americano em vez de uma bola de basquete), fazendo com que a luz se refrate de maneira desigual.",
+     oqueE: "O astigmatismo é uma alteração ocular muito frequente, classificada como um erro de refração. Ele acontece quando a superfície transparente do olho (a córnea) ou a lente interna (o cristalino) apresenta uma curvatura irregular. Em um olho de anatomia ideal, a córnea é perfeitamente arredondada como uma bola de basquete, permitindo que os raios de luz convirjam para um único ponto de foco na retina. No olho com astigmatismo, o formato lembra mais uma bola de futebol americano, fazendo com que a luz se espalhe e crie múltiplos pontos de foco, resultando em uma imagem desfocada.",
+     causas: "Na grande maioria dos casos, o astigmatismo é uma condição de origem genética e hereditária, o que significa que a pessoa já nasce com essa característica ou a desenvolve naturalmente ao longo da infância e adolescência. Ele também pode surgir ou se modificar em decorrência de traumas e lesões oculares, cicatrizes provocadas por infecções na córnea ou após cirurgias nos olhos. É importante destacar que hábitos cotidianos — como ler com pouca luz ou usar bastante o celular — não causam astigmatismo. Outra causa menos comum, porém relevante, é o ceratocone, uma condição que afina e deforma progressivamente a córnea.",
      sintomas: [
        "Visão borrada ou distorcida em qualquer distância",
        "Luzes noturnas parecendo esticadas, borradas ou com 'raios'",
