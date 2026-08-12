@@ -17,14 +17,10 @@ document.addEventListener("DOMContentLoaded", () => {
    },
    daltonismo: {
      titulo: "Daltonismo (Discromatopsia)",
-     oqueE: "O daltonismo é uma condição visual caracterizada pela incapacidade ou dificuldade em distinguir certas cores, mais comumente o vermelho e o verde, e raramente o azul e o amarelo.",
-     causas: "É uma condição predominantemente genética e hereditária, ligada ao cromossomo X, causada pela ausência ou mau funcionamento dos fotorreceptores da retina chamados 'cones'.",
-     sintomas: [
-       "Dificuldade em diferenciar cores como vermelho, verde, marrom e amarelo",
-       "Incapacidade de julgar tons ou a intensidade das cores",
-       "Sensibilidade à luz brilhante em casos mais raros (acromatopsia)"
-     ],
-     tratamento: "Não há cura para o daltonismo hereditário. No entanto, óculos e lentes com filtros especiais de cor podem ajudar na distinção de certas tonalidades no dia a dia."
+     oqueE: "O daltonismo, também conhecido como discromatopsia, é uma condição visual caracterizada pela dificuldade ou incapacidade de distinguir e identificar certas cores. Esse fenômeno ocorre devido a uma alteração ou deficiência nos cones, que são as células fotorreceptoras localizadas na retina responsáveis por captar as frequências de luz e traduzi-las nas cores que o cérebro interpreta. A limitação mais comum e conhecida entre os daltônicos é a dificuldade em diferenciar tons de vermelho e verde.",
+     causas: "Quanto às suas causas, a forma mais frequente é a genética e hereditária. Como o gene associado à condição está localizado no cromossomo X, ela afeta proporcionalmente muito mais os homens do que as mulheres. No entanto, o daltonismo também pode ser adquirido ao longo da vida devido ao envelhecimento natural das estruturas oculares, ao desenvolvimento de doenças visuais ou neurológicas (como catarata, glaucoma e degeneração macular) ou pelo uso prolongado de determinados medicamentos.",
+     sintomas: "Os sintomas variam de acordo com o nível da alteração, manifestando-se principalmente na confusão ao distinguir cores como vermelho, verde, azul e amarelo, ou na percepção de tons mais opacos e desbotados. Isso costuma refletir em tarefas do cotidiano, como interpretar gráficos, combinar roupas ou identificar a maturidade de frutas. Em casos extremamente raros, conhecidos como acromatopsia, a pessoa apresenta daltonismo total, enxergando o mundo apenas em variações de preto, branco e cinza.",
+     tratamento: "Em relação à correção, o daltonismo de origem genética não possui cura, mas trata-se de uma alteração benigna que não prejudica a nitidez da visão nem se agrava com o passar dos anos. Já nos casos adquiridos, tratar a doença de base — como fazer a cirurgia de catarata — pode restaurar a percepção normal das cores. Além disso, hoje existem diversos recursos tecnológicos de apoio, como óculos com filtros ópticos especiais que aumentam o contraste e modos de acessibilidade integrados em smartphones, computadores e jogos."
    },
    astigmatismo: {
      titulo: "Astigmatismo",
